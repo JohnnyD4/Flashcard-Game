@@ -69,6 +69,12 @@ emptyQuestion.push(dylan.partial);
 
 emptyCloze.push(dylan.cloze);
 
+var ta = new clozeCard("I am not answering that! Is my favorite TA", "I am not answering that!");
+
+emptyQuestion.push(ta.partial);
+
+emptyCloze.push(ta.cloze);
+
 var count = 0;
 
 function runQuestions() {
